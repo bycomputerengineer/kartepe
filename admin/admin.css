@@ -1,0 +1,17 @@
+.urun-ekle-btn{
+	display: block;
+	margin: 150px auto;
+	width: auto;
+	font-size: 40px;
+	color: white;
+	font-style: none;
+	border-style: none;
+	border-radius: 5px;
+	background-color: #09c;
+}
+
+.urun-ekle-btn:hover{
+	text-decoration: none;
+	background-color: #06a;
+	cursor: pointer;
+}

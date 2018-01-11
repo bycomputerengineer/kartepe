@@ -1,0 +1,391 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-image: url("resimler/bg4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	height: auto;
+	overflow: auto;
+	margin: auto;
+	text-align: center;
+	padding: 0px;
+	width: 100%;
+}
+
+/*HEADER*/
+header{
+	width: 100%;
+	background-color: #eee;
+	width: 100%;
+	height: auto;
+	padding: 20px;
+}
+
+header .row .col img{
+	margin: 10px auto;
+	height: 40px;
+	width: auto;
+}
+
+header h6, h4{
+	margin: 3px;
+	text-align: left;
+}
+
+.ikonlar div a img:hover{
+	height: 50px;
+	width: auto;
+}
+
+.logo{
+	margin-top: 2%;
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*NAVİGATOR*/
+.active-nav{
+	background-color: white;
+}
+
+.active-nav p{
+	color: black;
+}
+
+.satir10{
+	background-color: black;
+}
+
+.satir10 .sutun{
+	float: left;
+	padding: 0;
+	min-width: 200px;
+	display: block;
+	height: 50px;
+	cursor: pointer;
+}
+
+.satir10 .sutun:hover{
+	background-color: #006666;
+}
+
+.par{
+	display: block;
+	margin: 0;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.satir10 .sutun a{
+	display: block;
+	margin: 0;
+}
+
+.home{
+	display: block;
+	margin: auto;
+	height: 50px;
+	width: auto;
+}
+
+.dropbtn {
+	background-color: black;
+    color: white;
+    width: 100%;
+    padding: 3px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+	margin: 0;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #006666;
+}
+
+.alt-dropbtn {
+	background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.alt-dropdown {
+	margin: 0;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.alt-dropdown-content {
+    display: none;
+    margin-top: -50px;
+    position: absolute;
+    background-color: #f9f9f9;
+    margin-left: 100%;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.alt-dropdown-content p{
+    color: black;
+    font-size: 20px;
+    margin: 0;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.alt-dropdown-content p:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.alt-dropdown:hover .alt-dropdown-content {
+    display: block;
+}
+
+.alt-dropdown:hover .alt-dropbtn {
+    background-color: #006666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/***CONTENT***/
+.ust-kalip{
+	width: 100%;
+	height: auto;
+}
+
+.alt-kalip{
+	display: block;
+	margin: 30px auto;
+	width: 70%;
+	padding: 20px;
+	height: auto;
+	background-color: rgba(255,255,255, 0.6);
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/****** FOOTER *****/
+footer {
+	width: 100%;
+	height:auto;
+	background:#eee;
+}
+
+.satir2 .sutun1{
+	float: left;
+	min-width: 300px;
+	padding: 25px;
+}
+
+.satir2 .sutun1 table th{
+	font-size: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.satir2 .sutun1 table{
+	margin: auto;
+}
+
+.satir2 .sutun1 table tr td a{
+	font-size: 15PX;
+	color: black;
+}
+
+.satir2 .sutun1 table tr td a:hover{
+	text-decoration: none;
+	font-size: 20px;
+	color: #066;
+}
+
+.satir2 .sutun2{
+	float: left;
+	padding: 25px;
+	min-width: 350px;
+}
+
+.satir2 .sutun2 ul{
+	margin: auto;
+}
+
+.satir2 .sutun2 ul li{
+	list-style-type: none;
+	width: 100%;
+}
+
+.satir2 .sutun2 ul p{
+	width: 100%;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.satir2 .sutun2 ul li img{
+	width: 30px;
+	height: auto;
+	float: left;
+	margin: 5px;
+	margin-right: 10px;
+}
+
+.satir2 .sutun2 ul li p{
+	width: 85%;
+	font-size: 20px;
+	float: left;
+	text-align: left;
+}
+
+.satir3{
+	height: auto;
+}
+
+.satir3 .sutun1{
+	padding: 25px;
+}
+
+.ikonlar div{
+	display: block;
+	margin: auto;
+	padding-top: 5%;
+	float: left;
+	max-width: 70px;
+}
+
+.satir3 img{
+	height: 40px;
+	width: auto;
+}
+
+.satir3 img:hover{
+	height: 50px;
+	width: auto;
+}
+
+.satir3 .col-sm-6 h4{
+	text-align: center;
+	font-style: none;
+	margin-bottom: 30px;
+}
+
+.form{
+	padding: 30px;
+}
+
+.form input{
+	display: block;
+	float: left;
+	padding: 8px;
+	width: 80%;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.form button{
+	display: block;
+	float: left;
+	width: 20%;
+	min-width: 100px;
+	height: 40px;
+	font-size: 20px;
+	font-style: none;
+	border-radius: 5px;
+	background-color: #09c;
+}
+
+.form button:hover{
+	background-color: #066;
+	color: white;
+}
+
+.satir4{
+	background-color: #fff;
+}
+
+.satir4 p{
+	text-align: center;
+	margin: 0;
+}
+
+.satir5{
+	background-color: #ddd;
+}
+
+.satir5 p{
+	text-align: center;
+	margin: 0;
+}
+
+/*@media only screen and (max-width: 800px) {
+    .telefon {
+        width: 100%;
+        background-color: red;
+    }
+}*/

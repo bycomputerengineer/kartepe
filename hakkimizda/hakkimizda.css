@@ -1,0 +1,17 @@
+.hakkimizda .col{
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.hakkimizda .col p{
+	text-align: center;
+	font-size: 30px;
+	color: #004000;
+}
+
+.hakkimizda .col h1{
+	color: #004000;
+	font-size: 45px;
+}

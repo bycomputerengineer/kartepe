@@ -1,0 +1,16 @@
+.referanslar ul li{
+	list-style: none;
+}
+
+.referanslar ul li p{
+	padding-left: 50px;
+	text-align: left;
+	font-size: 40px;
+	color: black;
+}
+
+.referanslar ul li:hover{
+	padding-left: 50px;
+	text-transform: uppercase;
+	text-shadow: 3px 2px blue;
+}

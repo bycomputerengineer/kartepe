@@ -1,0 +1,55 @@
+.urunler1{
+	display: block;
+	margin: 30px auto;
+	width: 70%;
+	padding: 50px;
+	height: auto;
+	background-color: rgba(255,255,255, 0.3);
+	border-radius: 20px;
+}
+
+.urunler1 p{
+	overflow: hidden;
+	font-size: 100px;
+	color: white;
+	text-shadow: 6px 4px black;
+}
+
+.urun-ler{
+	width: 100%;
+	height: auto;
+}
+
+.urun{
+	display: block;
+	background-color: white;
+	margin: 2% 1%;
+	width: 300px;
+	height: auto;
+	float: left;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.38);
+	text-align: center;
+}
+
+.urun img{
+	width:100%;
+	height: 150px;
+}
+
+.urun hr{
+	margin: 0;
+	height: 0.5px;
+	background-color: gray;
+}
+
+.urun div{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.urun p{
+	margin: auto;
+	text-align: center;
+}

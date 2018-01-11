@@ -1,0 +1,21 @@
+/*CONTENT*/
+.kalip{
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-inner h3 {
+	font-size: 40px;
+  font-weight: bold;
+}
+
+.carousel-inner p {
+	font-size: 25px;
+  font-weight: bold;
+}
